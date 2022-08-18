@@ -1,0 +1,30 @@
+title: No Filters Only Coffee
+email: savi.vish06@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  This unfiltered strong brew, brought to you by Savithri Vishwanathan, will be served every Monday evening to beat those beginning-of-the-week-blues.
+  Savour the bittersweet flavours as a twenty-something girl spills the beans.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+theme: jekyll-theme-dinky
+plugins:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
